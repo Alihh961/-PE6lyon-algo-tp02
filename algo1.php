@@ -11,9 +11,9 @@
 
     function testMoyenne_TRUE(){
         if(moyenne(10 , 8) == 9){
-            echo "Test testMoyenne_TRUE : OK";
+            echo "Test testMoyenne_TRUE : OK ✅";
         }else {
-            echo "Test testMoyenne_TRUE : Echec";
+            echo "Test testMoyenne_TRUE : Echec ❌";
         }
     }
 
@@ -22,9 +22,9 @@
 
     function testMoyenne_FALSE_NEGATIVE(){
         if(!(moyenne(10 , 8) == 5)){
-            echo "Test testMoyenne_FALSE_NEGATIVE : OK";
+            echo "Test testMoyenne_FALSE_NEGATIVE : OK ✅";
         }else {
-            echo "Test testMoyenne_FALSE_NEGATIVE : Echec";
+            echo "Test testMoyenne_FALSE_NEGATIVE : Echec ❌";
         }
     }
 

@@ -11,9 +11,9 @@ function nEstValide($x){
 
 function nEstValide_TRUE(){
     if(nEstValide(5)){
-        echo "Test nEstValide_TRUE : OK";
+        echo "Test nEstValide_TRUE : OK ✅";
     }else{
-        echo "Test nEstValide_TRUE : Echec";
+        echo "Test nEstValide_TRUE : Echec ❌";
     }
 }
 nEstValide_TRUE();
@@ -21,9 +21,9 @@ echo PHP_EOL ;
 
 function nEstValide_NEGATIVE_FALSE(){
     if(!nEstValide(-5)){
-        echo "Test nEstValide_NEGATIVE_FALSE : OK";
+        echo "Test nEstValide_NEGATIVE_FALSE : OK ✅";
     }else{
-        echo "Test nEstValide_NEGATIVE_FALSE : Echec";
+        echo "Test nEstValide_NEGATIVE_FALSE : Echec ❌";
     }
 }
 nEstValide_NEGATIVE_FALSE();
@@ -41,9 +41,9 @@ function numInt($x){
 
 function numInt_TRUE(){
     if(numInt(1) == 1){
-        echo "Test numInt_TRUE : OK";
+        echo "Test numInt_TRUE : OK ✅";
     }else{
-        echo "Test numInt_TRUE : Echec";
+        echo "Test numInt_TRUE : Echec ❌";
     }
 }
 numInt_TRUE();
@@ -51,9 +51,9 @@ echo PHP_EOL ;
 
 function numInt_NEGATIVE_FALSE(){
     if(!numInt(1) == 0){
-        echo "Test numInt_NEGATIVE_FALSE : OK";
+        echo "Test numInt_NEGATIVE_FALSE : OK ✅";
     }else{
-        echo "Test numInt_NEGATIVE_FALSE : Echec";
+        echo "Test numInt_NEGATIVE_FALSE : Echec ❌";
     }
 }
 numInt_NEGATIVE_FALSE();

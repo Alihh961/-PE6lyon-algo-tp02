@@ -11,9 +11,9 @@
 
     function testEstValide_TRUE() {
         if (estvalide(10)) { 
-        echo "Test testEstValide_TRUE : OK"; 
+        echo "Test testEstValide_TRUE : OK ✅"; 
         }
-        else { echo"Test testEstValide_TRUE : Échec"; } 
+        else { echo"Test testEstValide_TRUE : Échec ❌"; } 
        }
 
      testEstValide_TRUE();
@@ -21,9 +21,9 @@
 
      function testEstValide_FALSE_NEGATIVE() {
         if (!estvalide(-10)) { 
-        echo "Test testEstValide_FALSE_NEGATIVE : OK"; 
+        echo "Test testEstValide_FALSE_NEGATIVE : OK ✅"; 
         }
-        else { echo"Test testEstValide_FALSE_NEGATIVE : Échec"; } 
+        else { echo"Test testEstValide_FALSE_NEGATIVE : Échec ❌"; } 
        }
 
        testEstValide_FALSE_NEGATIVE();
@@ -43,9 +43,9 @@
         
         if(excellent(19)){
 
-        echo "Test testExcellent_TRUE : OK"; 
+        echo "Test testExcellent_TRUE : OK ✅"; 
         }
-        else { echo "Test testExcellent_TRUE : Échec " ;}
+        else { echo "Test testExcellent_TRUE : Échec ❌" ;}
 
         }
         testExcellent_TRUE();
@@ -56,9 +56,9 @@
         
             if(!excellent(15)){
     
-            echo "Test testExcellent_FALSE_NEGATIVE : OK"; 
+            echo "Test testExcellent_FALSE_NEGATIVE : OK ✅"; 
             }
-            else { echo "Test testExcellent_FALSE_NEGATIVE : Échec " ;}
+            else { echo "Test testExcellent_FALSE_NEGATIVE : Échec ❌" ;}
     
             }
         testExcellent_FALSE_NEGATIVE();
@@ -81,9 +81,9 @@
 
         if(tb(17)){
 
-            echo "Test testTB_TRUE : OK"; 
+            echo "Test testTB_TRUE : OK ✅"; 
             }
-            else { echo "Test testTB_TRUE : Échec " ;}
+            else { echo "Test testTB_TRUE : Échec ❌" ;}
 
         }
         testTB_TRUE();
@@ -93,9 +93,9 @@
 
             if(!tb(10)){
     
-                echo "Test testTB_FALSE_NEGATIVE : OK"; 
+                echo "Test testTB_FALSE_NEGATIVE : OK ✅"; 
                 }
-                else { echo "Test testTB_FALSE_NEGATIVE : Échec " ;}
+                else { echo "Test testTB_FALSE_NEGATIVE : Échec ❌" ;}
     
             }
 
@@ -119,9 +119,9 @@
 
         if(bien(15)){
 
-            echo "Test testBien_TRUE : OK"; 
+            echo "Test testBien_TRUE : OK ✅"; 
             }
-            else { echo "Test testBien_TRUE : Échec " ;}
+            else { echo "Test testBien_TRUE : Échec ❌" ;}
 
         }
         testBien_TRUE();
@@ -131,9 +131,9 @@
 
             if(!bien(5)){
     
-                echo "Test testBien_FALSE_NEGATIVE : OK"; 
+                echo "Test testBien_FALSE_NEGATIVE : OK ✅"; 
                 }
-                else { echo "Test testBien_FALSE_NEGATIVE : Échec " ;}
+                else { echo "Test testBien_FALSE_NEGATIVE : Échec ❌" ;}
     
             }
             testBien_TRUE();
@@ -153,9 +153,9 @@
 
         if(ab(13)){
 
-            echo "Test testAb_TRUE : OK"; 
+            echo "Test testAb_TRUE : OK ✅"; 
             }
-            else { echo "Test testAb_TRUE : Échec " ;}
+            else { echo "Test testAb_TRUE : Échec ❌" ;}
 
         }
         testAb_TRUE();
@@ -165,9 +165,9 @@
 
             if(!ab(2)){
     
-                echo "Test testAb_FALSE_NEGATIVE : OK"; 
+                echo "Test testAb_FALSE_NEGATIVE : OK ✅"; 
                 }
-                else { echo "Test testAb_FALSE_NEGATIVE : Échec " ;}
+                else { echo "Test testAb_FALSE_NEGATIVE : Échec ❌" ;}
     
             }
             testAb_FALSE_NEGATIVE();
